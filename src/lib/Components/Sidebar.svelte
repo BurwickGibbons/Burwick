@@ -2,39 +2,41 @@
 	import { fly } from 'svelte/transition';
 	let visible = true;
 
-	export let open = false
+	export let open = false;
 	const links = [
-    { title: "Home", href: "/" },
-    { title: "About", href: "/about" },
-    { title: "Blender", href: "/blender" },
-    { title: "Piano", href: "/piano" },
-    { title: "CV", href: "/cv" },
-    { title: "Contact", href: "/contact" },
-  ];
+		{ title: 'Home', href: '/' },
+		{ title: 'About', href: '/about' },
+		{ title: 'Blender', href: '/blender' },
+		{ title: 'Piano', href: '/piano' },
+		{ title: 'CV', href: '/cv' },
+		{ title: 'Contact', href: '/contact' }
+	];
 </script>
 
-
-
-<aside class="absolute w-full h-full bg-zinc-200 border-r-2 shadow-lg z-20 rounded-tr-lg " class:open>
- <div class="w-[110%] h-20 bg-slate-700 shadow-lg z-20 rounded-br-full" class:open></div> 
+<aside
+	class="absolute w-full h-full bg-zinc-200 border-r-2 shadow-lg z-20 rounded-tr-lg "
+	class:open
+>
+	<div class="w-[110%] h-20 bg-slate-700 shadow-lg z-20 rounded-br-full" class:open />
 	{#key open}
-	<nav class="p-5 px-20">
-		{#each links as {href, title}, index}
-				<a in:fly="{{ x: -200, duration: 200, delay: 200+index*200 }}" class="py-2 block" {href} on:click={()=>open=false}>{title}</a>
-		{/each}
-
-	</nav>
+		<nav class="p-5 px-20">
+			{#each links as { href, title }, index}
+				<a
+					in:fly={{ x: -200, duration: 200, delay: 200 + index * 200 }}
+					class="py-2 block"
+					{href}
+					on:click={() => (open = false)}>{title}</a
+				>
+			{/each}
+		</nav>
 	{/key}
 </aside>
 
-
-
 <style lang="postcss">
-
 	a {
 		@apply text-2xl;
 		@apply text-slate-700;
-		transition: font .5s;	
+		transition: font 0.5s;
 	}
 
 	a:hover {
@@ -43,22 +45,16 @@
 		@apply text-3xl;
 	}
 
-
 	aside {
 		left: -120%;
-		transition: left .5s ease-in-out;
+		transition: left 0.5s ease-in-out;
 	}
 	div {
-		left:-100%;
-		transition: left .5s ease-in;
+		left: -100%;
+		transition: left 0.5s ease-in;
 	}
 
-	
-	
 	.open {
-		left: 0
+		left: 0;
 	}
-
-
-
 </style>
