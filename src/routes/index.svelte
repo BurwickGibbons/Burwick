@@ -7,7 +7,6 @@
 
 <div class="relative"> 
         <BackgroundPano/>
-<h1 class="relative text-center underline">Welcome to my Website!</h1>
 </div>
 
 <style lang="postcss">

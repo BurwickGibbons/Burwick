@@ -1,24 +1,30 @@
 <script>
+	import { fly } from 'svelte/transition';
+	let visible = true;
 
 	export let open = false
-	let padding = 5
+	const links = [
+    { title: "Home", href: "/" },
+    { title: "About", href: "/about" },
+    { title: "Blender", href: "/blender" },
+    { title: "Piano", href: "/piano" },
+    { title: "CV", href: "/cv" },
+    { title: "Contact", href: "/contact" },
+  ];
 </script>
 
 
 
 <aside class="absolute w-full h-full bg-zinc-200 border-r-2 shadow-lg z-20 rounded-tr-lg " class:open>
-<aside class="y=20 x=30 absolute w-full h-20 bg-slate-700 shadow-lg z-20 rounded-br-full" class:open></aside>
-	<nav class="p-12 py-20">
-
-		<a class="block py-2" href="/" on:click={()=>open=false}>Home</a>
-		<a class="block py-2" href="/about" on:click={()=>open=false}>About</a>
-		<a class="block py-2" href="/blender" on:click={()=>open=false}>Blender</a>
-		<a class="block py-2" href="/piano" on:click={()=>open=false}>Piano</a>
-		<a class="block py-2" href="/cv" on:click={()=>open=false}>CV</a>
-		<a class="block py-2" href="/contact" on:click={()=>open=false}>Contact</a>
+ <div class="w-[110%] h-20 bg-slate-700 shadow-lg z-20 rounded-br-full" class:open></div> 
+	{#key open}
+	<nav class="p-5 px-20">
+		{#each links as {href, title}, index}
+				<a in:fly="{{ x: -200, duration: 200, delay: 200+index*200 }}" class="py-2 block" {href} on:click={()=>open=false}>{title}</a>
+		{/each}
 
 	</nav>
-
+	{/key}
 </aside>
 
 
@@ -39,8 +45,12 @@
 
 
 	aside {
-		left: -100%;
+		left: -120%;
 		transition: left .5s ease-in-out;
+	}
+	div {
+		left:-100%;
+		transition: left .5s ease-in;
 	}
 
 	

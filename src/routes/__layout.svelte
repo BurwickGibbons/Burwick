@@ -24,7 +24,7 @@
       /* background-color:rgb(243, 243, 243); */
       @apply bg-zinc-100;
 		  padding: 0;
-      @apply font-mono;
+      @apply font-informal;
 	  }
   </style>
   

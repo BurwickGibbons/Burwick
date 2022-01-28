@@ -2,7 +2,7 @@
 	export let open = false
 </script>
 
-<button class="z-50 p-7 cursor-pointer mr-4 border-none focus:outline-none" class:open on:click={() => open = !open}>
+<button class="p-7 cursor-pointer mr-4 border-none focus:outline-none" class:open on:click={() => open = !open}>
 	<svg width=30 height=10>
 		<line  id="top" x1=0 y1=2  x2=32 y2=2/>
 		<line  id="middle" x1=0 y1=12 x2=24 y2=12/>
@@ -16,10 +16,6 @@
 		min-height: 24px;
 		transition: transform 0.3s ease-in-out;
 	}
-	svg:hover {
-		@apply text-slate-900;
-		@apply scale-125;
-	}
 	
 	svg line {
 		stroke: currentColor;
@@ -32,12 +28,7 @@
 	}
 	
 	.open svg {
-		transform: scale(0.7)
-		
-	}
-	
-	.open svg:hover {
-		@apply scale-125;
+		@apply scale-105;
 		
 	}
 
