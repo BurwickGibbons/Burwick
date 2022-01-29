@@ -1,3 +1,8 @@
+<script>
+
+</script>
+
+
 <div class="relative">
 	<div class="grid place-items-center">
 		<img
@@ -25,5 +30,6 @@
 	h1 {
 		@apply text-slate-100;
 		@apply underline;
+		@apply font-title;
 	}
 </style>

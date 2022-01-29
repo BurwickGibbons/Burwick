@@ -3,7 +3,8 @@ module.exports = {
 	theme: {
 		fontFamily: {
 			informal: ['"Amatic SC", cursive'],
-			formal: ['"Amiri", serif']
+			formal: ['"Amiri", serif'],
+			title: ['"Comforter", cursive'],
 		}
 	}
 };

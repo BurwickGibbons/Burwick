@@ -9,7 +9,9 @@
 		{ title: 'Blender', href: '/blender' },
 		{ title: 'Piano', href: '/piano' },
 		{ title: 'CV', href: '/cv' },
-		{ title: 'Contact', href: '/contact' }
+		{ title: 'Contact', href: '/contact' },
+		{ title: 'Test', href: '/test' }
+
 	];
 </script>
 

@@ -1,0 +1,34 @@
+<script>
+	let hereKitty = false;
+
+	const handleMouseenter = () => hereKitty = true;
+	const handleMouseleave = () => hereKitty = false;
+</script>
+
+<svelte:body
+on:mouseenter={handleMouseenter}
+on:mouseleave={handleMouseleave}
+/>
+
+<!-- creative commons BY-NC http://www.pngall.com/kitten-png/download/7247 -->
+<img class="w-1/4 h/1/4"
+class:curious={hereKitty}
+alt="Kitten wants to know what's going on"
+src="/Peter.png"
+>
+
+<style lang="postcss">
+img {
+	position: absolute;
+	left: 0;
+	@apply bottom-80;
+	transform: translate(-200%, 0) rotate(90deg);
+	transform-origin: 100% 100%;
+	transition: transform 0.4s;
+}
+
+.curious {
+	transform: translate(-110%, 0) rotate(90deg);
+}
+
+</style>

@@ -16,6 +16,7 @@
 
 <slot />
 
+
 <footer class="absolute left-0 bottom-0 right-0 scale-50 sm:scale-100">
 	<SocialMediaTags />
 </footer>
@@ -27,5 +28,8 @@
 		@apply bg-zinc-100;
 		padding: 0;
 		@apply font-informal;
+	}
+	col {
+		@apply bg-red-600;
 	}
 </style>
