@@ -5,6 +5,7 @@ module.exports = {
 			informal: ['"Amatic SC", cursive'],
 			formal: ['"Amiri", serif'],
 			title: ['"Comforter", cursive'],
+			lol: ['"Sacramento", mono'],
 		}
 	}
 };

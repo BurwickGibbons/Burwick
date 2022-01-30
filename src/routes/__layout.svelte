@@ -29,7 +29,4 @@
 		padding: 0;
 		@apply font-informal;
 	}
-	col {
-		@apply bg-red-600;
-	}
 </style>

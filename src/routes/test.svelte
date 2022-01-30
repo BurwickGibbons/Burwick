@@ -11,7 +11,7 @@ on:mouseleave={handleMouseleave}
 />
 
 <!-- creative commons BY-NC http://www.pngall.com/kitten-png/download/7247 -->
-<img class="w-1/4 h/1/4"
+<img class="w-1/2 h/1/2"
 class:curious={hereKitty}
 alt="Kitten wants to know what's going on"
 src="/Peter.png"
@@ -21,10 +21,10 @@ src="/Peter.png"
 img {
 	position: absolute;
 	left: 0;
-	@apply bottom-80;
+	@apply bottom-64;
 	transform: translate(-200%, 0) rotate(90deg);
 	transform-origin: 100% 100%;
-	transition: transform 0.4s;
+	transition: transform 2s;
 }
 
 .curious {

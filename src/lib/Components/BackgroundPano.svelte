@@ -18,7 +18,7 @@
 
 		<div>
 			<img
-				src="/ProfilePic.png"
+				src="/222.png"
 				alt="..."
 				class="w-1/4 -translate-y-1/2 mx-auto shadow-2xl rounded-full border-4 border-slate-700 hover:scale-105 duration-300"
 			/>
@@ -30,6 +30,6 @@
 	h1 {
 		@apply text-slate-100;
 		@apply underline;
-		@apply font-title;
+		@apply font-lol;
 	}
 </style>
