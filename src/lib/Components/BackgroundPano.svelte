@@ -30,6 +30,7 @@
 	h1 {
 		@apply text-slate-100;
 		@apply underline;
-		@apply font-lol;
+		@apply font-title;
 	}
+
 </style>
