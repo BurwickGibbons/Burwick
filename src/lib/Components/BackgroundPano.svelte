@@ -20,7 +20,7 @@
 			<img
 				src="/ProfilePicFinal.png"
 				alt="..."
-				class="w-1/4 -translate-y-1/2 mx-auto shadow-2xl rounded-full border-4 border-slate-700 hover:scale-105 duration-300"
+				class=" w-1/2 h-1/2 -translate-y-1/2 border-4 border-slate-700 hover:scale-105 duration-300"
 			/>
 		</div>
 	</div>
