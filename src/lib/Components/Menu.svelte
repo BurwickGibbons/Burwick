@@ -22,7 +22,6 @@
 	}
 	a:hover {
 		@apply text-slate-900;
-		@apply font-extrabold;
 		@apply underline;
 	}
 </style>

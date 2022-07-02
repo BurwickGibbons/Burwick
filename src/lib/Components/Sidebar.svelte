@@ -16,12 +16,12 @@
 </script>
 
 <aside
-	class="absolute w-1/4 h-full border-r-2 shadow-lg z-20 "
+	class="absolute w-1/4 h-full border-r-2 shadow-xl z-20 "
 	class:open
 >
-	<div class="w-[103.5%] h-20 shadow-md z-20 rounded-br-md border-r-8" class:open />
+	<div class="w-[100%] h-20 shadow-xl z-20" class:open />
 	{#key open}
-		<nav class="p-5 px-20">
+		<nav class="p-5 px-12">
 			{#each links as { href, title }, index}
 				<a
 					in:fly={{ x: -200, duration: 200, delay: 300 + index * 100 }}
@@ -46,14 +46,14 @@
 	}
 
 	a:hover {
-		@apply font-bold;
+	
 		@apply text-slate-900;
-		@apply translate-x-5;
+		@apply translate-x-2;
 		
 	}
 
 	aside {
-		left: -50%;
+		left: -100%;
 		transition: left .5s ease-in-out;
 		@apply bg-slate-200;
 		@apply border-slate-700;

@@ -16,13 +16,14 @@
 
 <slot />
 
+
 <footer />
 
 <style lang="postcss">
 	:global(body) {
     @apply h-full;
 		/* background-color:rgb(243, 243, 243); */
-		@apply bg-slate-100;
+		@apply bg-slate-200;
 		padding: 0;
 		@apply font-informal;
 	}
