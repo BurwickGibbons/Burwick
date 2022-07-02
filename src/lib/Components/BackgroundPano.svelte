@@ -18,7 +18,7 @@
 
 		<div>
 			<img
-				src="/222.png"
+				src="/ProfilePicFinal.png"
 				alt="..."
 				class="w-1/4 -translate-y-1/2 mx-auto shadow-2xl rounded-full border-4 border-slate-700 hover:scale-105 duration-300"
 			/>
