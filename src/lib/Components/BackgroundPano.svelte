@@ -15,7 +15,7 @@
 			<img
 				src="/ProfilePicFinal.JPEG"
 				alt="..."
-				class="center w-1/2 h-1/2 -translate-y-1/2  rounded-full border-4 border-slate-700 hover:scale-105 duration-300"
+				class="center w-1/2 h-1/2 -translate-y-1/2 rounded-full border-4 border-slate-700 hover:scale-105"
 			/>
 		</div>
 	</div>
@@ -28,6 +28,10 @@
 		margin-left: auto;
 		margin-right: auto;
 		width: 25%;
+	}
+
+	img{
+		transition: 1s;
 	}
 
 </style>

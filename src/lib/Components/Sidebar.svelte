@@ -24,7 +24,7 @@
 		<nav class="p-5 px-20">
 			{#each links as { href, title }, index}
 				<a
-					in:fly={{ x: -200, duration: 200, delay: 500 + index * 200 }}
+					in:fly={{ x: -200, duration: 200, delay: 300 + index * 100 }}
 					class="py-3 block"
 					{href}
 					on:click={() => (open = false)}>{title}</a
@@ -53,7 +53,7 @@
 	}
 
 	aside {
-		left: -120%;
+		left: -50%;
 		transition: left .5s ease-in-out;
 		@apply bg-slate-200;
 		@apply border-slate-700;

@@ -24,7 +24,7 @@
 	svg line {
 		stroke: currentColor;
 		stroke-width: 3;
-		transition: transform 0.3s ease-in-out;
+		transition: transform 0s ease-in-out;
 	}
 
 	button {
@@ -32,7 +32,7 @@
 	}
 
 	.open svg {
-		@apply scale-105;
+		@apply scale-100;
 	
 	}
 

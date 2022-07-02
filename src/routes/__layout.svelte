@@ -22,7 +22,7 @@
 	:global(body) {
     @apply h-full;
 		/* background-color:rgb(243, 243, 243); */
-		@apply bg-zinc-500;
+		@apply bg-slate-100;
 		padding: 0;
 		@apply font-informal;
 	}
