@@ -2,7 +2,8 @@
 	import SocialMediaTags from '$lib/Components/SocialMediaTags.svelte';
 	import BackgroundPano from '$lib/Components/BackgroundPano.svelte';
 	import HomeDesc from '$lib/Components/HomeDesc.svelte';
-	
+
+
 
 </script>
 
@@ -18,6 +19,8 @@ class="relative"
 <div
 class="relative"
 >
+
+
 	<HomeDesc />
 </div>
 
