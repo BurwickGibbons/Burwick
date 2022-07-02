@@ -33,19 +33,23 @@
 
 	.open svg {
 		@apply scale-105;
+	
 	}
 
 	.open #top {
 		transform: translate(6px, 0px) rotate(45deg);
-		@apply text-white;
+		@apply text-slate-200;
+	
 	}
 
 	.open #middle {
 		opacity: 0;
+		
 	}
 
 	.open #bottom {
 		transform: translate(-12px, 9px) rotate(-45deg);
-		@apply text-white;
+		@apply text-slate-200;
+	
 	}
 </style>

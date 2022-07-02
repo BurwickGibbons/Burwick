@@ -16,16 +16,16 @@
 </script>
 
 <aside
-	class="absolute w-full h-full bg-zinc-200 border-r-2 shadow-lg z-20 rounded-tr-lg "
+	class="absolute w-1/4 h-full border-r-2 shadow-lg z-20 "
 	class:open
 >
-	<div class="w-[110%] h-20 bg-slate-700 shadow-lg z-20 rounded-br-full" class:open />
+	<div class="w-[103.5%] h-20 shadow-md z-20 rounded-br-md border-r-8" class:open />
 	{#key open}
 		<nav class="p-5 px-20">
 			{#each links as { href, title }, index}
 				<a
-					in:fly={{ x: -200, duration: 200, delay: 200 + index * 200 }}
-					class="py-2 block"
+					in:fly={{ x: -200, duration: 200, delay: 500 + index * 200 }}
+					class="py-3 block"
 					{href}
 					on:click={() => (open = false)}>{title}</a
 				>
@@ -37,23 +37,34 @@
 <style lang="postcss">
 	a {
 		@apply text-2xl;
+		@apply translate-x-0;
 		@apply text-slate-700;
-		transition: font 0.5s;
+		transition: 500ms;
+		
+		
+		
 	}
 
 	a:hover {
 		@apply font-bold;
 		@apply text-slate-900;
-		@apply text-3xl;
+		@apply translate-x-5;
+		
 	}
 
 	aside {
 		left: -120%;
-		transition: left 0.5s ease-in-out;
+		transition: left .5s ease-in-out;
+		@apply bg-slate-200;
+		@apply border-slate-700;
+		
 	}
 	div {
 		left: -100%;
-		transition: left 0.5s ease-in;
+		transition: left .5s ease-in;
+		@apply bg-slate-700;
+		@apply border-slate-700;
+		
 	}
 
 	.open {

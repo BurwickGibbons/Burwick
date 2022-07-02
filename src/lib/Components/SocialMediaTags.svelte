@@ -1,13 +1,26 @@
 <script>
-	let size = 75;
+	let size =55;
 	let pad = 5;
+	let border = 4;
 </script>
 
-<div class="max-w-screen-2xl mx-auto">
+<div class="
+max-w-screen-sm 
+mx-auto 
+border-ridge
+border-r-{border}
+border-l-{border}
+border-t-{border}
+rounded-tr-full 
+rounded-tl-full
+bg-slate-200
+border-slate-700
+
+">
 
     <div class="flex items-center justify-center">
 	<a href="https://www.instagram.com/reuben.gibbons/?hl=en" class="p-{pad}">
-		<svg class="hover:animate-bounce" xmlns="http://www.w3.org/2000/svg" viewBox="0 0 3364.7 3364.7" width={size} height={size}
+		<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 3364.7 3364.7" width={size} height={size}
 			><defs
 				><radialGradient id="0" cx="217.76" cy="3290.99" r="4271.92" gradientUnits="userSpaceOnUse"
 					><stop offset=".09" stop-color="#fa8f21" /><stop
@@ -36,8 +49,8 @@
 	<a
 		href="https://uk.linkedin.com/in/reuben-gibbons-5426a4149?trk=people-guest_people_search-card"
 		class="p-{pad}"
-	>
-		<svg class="hover:animate-bounce" height={size} width={size} xmlns="http://www.w3.org/2000/svg" viewBox="0 0 256 256"
+		>
+		<svg height={size} width={size} xmlns="http://www.w3.org/2000/svg" viewBox="0 0 256 256"
 			><g fill="none"
 				><path
 					d="M0 18.338C0 8.216 8.474 0 18.92 0h218.16C247.53 0 256 8.216 256 18.338v219.327C256 247.79 247.53 256 237.08 256H18.92C8.475 256 0 247.791 0 237.668V18.335z"
@@ -56,22 +69,19 @@
 			width={size}
 			height={size}
 			viewBox="126.445 2.281 589 589"
-			class="hover:animate-bounce"
 			><circle cx="420.945" cy="296.781" r="294.5" fill="#3c5a9a" /><path
 				d="M516.704 92.677h-65.239c-38.715 0-81.777 16.283-81.777 72.402.189 19.554 0 38.281 0 59.357H324.9v71.271h46.174v205.177h84.847V294.353h56.002l5.067-70.117h-62.531s.14-31.191 0-40.249c0-22.177 23.076-20.907 24.464-20.907 10.981 0 32.332.032 37.813 0V92.677h-.032z"
 				fill="#fff"
 			/></svg
 		>
 	</a>
-    <a href="https://github.com/BurwickGibbons" class="p-{pad}">
-        <svg class="hover:animate-bounce" height={size} width= {size} role="img" viewBox="0 0 24 24" xmlns="http://www.w3.org/2000/svg"><title>GitHub</title><path d="M12 .297c-6.63 0-12 5.373-12 12 0 5.303 3.438 9.8 8.205 11.385.6.113.82-.258.82-.577 0-.285-.01-1.04-.015-2.04-3.338.724-4.042-1.61-4.042-1.61C4.422 18.07 3.633 17.7 3.633 17.7c-1.087-.744.084-.729.084-.729 1.205.084 1.838 1.236 1.838 1.236 1.07 1.835 2.809 1.305 3.495.998.108-.776.417-1.305.76-1.605-2.665-.3-5.466-1.332-5.466-5.93 0-1.31.465-2.38 1.235-3.22-.135-.303-.54-1.523.105-3.176 0 0 1.005-.322 3.3 1.23.96-.267 1.98-.399 3-.405 1.02.006 2.04.138 3 .405 2.28-1.552 3.285-1.23 3.285-1.23.645 1.653.24 2.873.12 3.176.765.84 1.23 1.91 1.23 3.22 0 4.61-2.805 5.625-5.475 5.92.42.36.81 1.096.81 2.22 0 1.606-.015 2.896-.015 3.286 0 .315.21.69.825.57C20.565 22.092 24 17.592 24 12.297c0-6.627-5.373-12-12-12"/></svg>
+    <a href="https://github.com/BurwickGibbons" class="p-{pad} hover:animate-bounce">
+        <svg height={size} width= {size} role="img" viewBox="0 0 24 24" xmlns="http://www.w3.org/2000/svg"><title>GitHub</title><path d="M12 .297c-6.63 0-12 5.373-12 12 0 5.303 3.438 9.8 8.205 11.385.6.113.82-.258.82-.577 0-.285-.01-1.04-.015-2.04-3.338.724-4.042-1.61-4.042-1.61C4.422 18.07 3.633 17.7 3.633 17.7c-1.087-.744.084-.729.084-.729 1.205.084 1.838 1.236 1.838 1.236 1.07 1.835 2.809 1.305 3.495.998.108-.776.417-1.305.76-1.605-2.665-.3-5.466-1.332-5.466-5.93 0-1.31.465-2.38 1.235-3.22-.135-.303-.54-1.523.105-3.176 0 0 1.005-.322 3.3 1.23.96-.267 1.98-.399 3-.405 1.02.006 2.04.138 3 .405 2.28-1.552 3.285-1.23 3.285-1.23.645 1.653.24 2.873.12 3.176.765.84 1.23 1.91 1.23 3.22 0 4.61-2.805 5.625-5.475 5.92.42.36.81 1.096.81 2.22 0 1.606-.015 2.896-.015 3.286 0 .315.21.69.825.57C20.565 22.092 24 17.592 24 12.297c0-6.627-5.373-12-12-12"/></svg>
     </a>
 
     </div>
 </div>
 
 <style lang="postcss">
-	a:hover{ 
-		animation-delay: 1s;
-	}
+	
 </style>

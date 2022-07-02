@@ -16,16 +16,13 @@
 
 <slot />
 
-
-<footer class="absolute left-0 bottom-0 right-0 scale-50 sm:scale-100">
-	<SocialMediaTags />
-</footer>
+<footer />
 
 <style lang="postcss">
 	:global(body) {
     @apply h-full;
 		/* background-color:rgb(243, 243, 243); */
-		@apply bg-zinc-100;
+		@apply bg-zinc-500;
 		padding: 0;
 		@apply font-informal;
 	}

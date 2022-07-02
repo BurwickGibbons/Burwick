@@ -6,7 +6,7 @@
 	export let sidebar = false;
 </script>
 
-<header class="z-20 flex justify-between bg-zinc-200 items-center shadow-lg">
+<header class="z-20 flex justify-between bg-slate-200 items-center border-b-4 border-slate-700 shadow-lg">
 	<nav class="flex z-20">
 		<Hamburger bind:open={sidebar} />
 	</nav>
