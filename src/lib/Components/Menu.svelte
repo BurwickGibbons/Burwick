@@ -18,8 +18,10 @@
 		@apply font-bold;
 		@apply text-slate-700;
 		@apply uppercase;
-		@apply font-informal;
+		@apply font-title;
 		transition: font 0.5s;
+		border-radius: 5px;
+		padding: 5px 5px;
 	}
 	a:hover {
 		@apply text-slate-900;

@@ -2,10 +2,10 @@ module.exports = {
 	content: ['./src/**/*.{html,js,svelte}'],
 	theme: {
 		fontFamily: {
-			informal: ['"Amatic SC", cursive'],
-			formal: ['"Amiri", serif'],
-			title: ['"Comforter", cursive'],
-			lol: ['"Sacramento", mono'],
+			informal: ['"The Nautigal", cursive'],
+			formal: ['"Cormorant Garamond", serif'],
+			title: ['"Cormorant", serif'],
+			writing: ['"Sacramento", cursive'],
 		}
 	}
 };

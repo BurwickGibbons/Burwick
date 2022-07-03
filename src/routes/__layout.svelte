@@ -16,8 +16,9 @@
 
 <slot />
 
+<slot/>
 
-<footer />
+
 
 <style lang="postcss">
 	:global(body) {
@@ -25,6 +26,6 @@
 		/* background-color:rgb(243, 243, 243); */
 		@apply bg-slate-200;
 		padding: 0;
-		@apply font-informal;
+		@apply font-formal;
 	}
 </style>

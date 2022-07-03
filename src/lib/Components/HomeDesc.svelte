@@ -27,6 +27,8 @@
 		flex-direction: raw;
 		gap: 20%;
 		padding: 40px 0px;
+		@apply animate-pulse;
+		animation-iteration-count: 1;
 		
 	}
 	.card{

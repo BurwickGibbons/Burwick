@@ -1,6 +1,6 @@
 <script>
-	let size =55;
-	let pad = 5;
+	let size =65;
+	let pad = 7;
 	let height = 3;
 </script>
 
