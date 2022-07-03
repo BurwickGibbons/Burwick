@@ -16,7 +16,7 @@
 </script>
 
 <aside
-	class="absolute w-1/4 h-full border-r-2 shadow-xl z-20 "
+	class="absolute m-x-auto sm:mx-auto h-full border-r-4 border-b-4 sm:runded-br-none lg:rounded-br-full shadow-xl z-20 "
 	class:open
 >
 	<div class="w-[100%] h-20 shadow-xl z-20" class:open />
