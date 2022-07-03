@@ -2,7 +2,7 @@
 	import ContactCard from '$lib/Components/ContactCard.svelte';
 </script>
 
-<title>Contact</title>
+<title>Reuben's Website Contact</title>
 
 <h1 class="text-2xl font-bold text-center text-black-800 md:text-3xl">Contact</h1>
 

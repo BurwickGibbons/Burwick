@@ -1,4 +1,4 @@
-<title>CV</title>
+<title>Reuben's Website CV</title>
 
 <head />
 <main>

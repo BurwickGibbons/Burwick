@@ -5,6 +5,8 @@
 	const handleMouseleave = () => hereKitty = false;
 </script>
 
+<title>Reuben's Website Test</title>
+
 <svelte:body
 on:mouseenter={handleMouseenter}
 on:mouseleave={handleMouseleave}

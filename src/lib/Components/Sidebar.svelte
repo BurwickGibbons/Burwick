@@ -8,6 +8,7 @@
 		{ title: 'About', href: '/about' },
 		{ title: 'Blender', href: '/blender' },
 		{ title: 'Piano', href: '/piano' },
+		{ title: 'Uniting Creativity', href: '/uniting_creativity'},
 		{ title: 'CV', href: '/cv' },
 		{ title: 'Contact', href: '/contact' },
 		{ title: 'Test', href: '/test' }

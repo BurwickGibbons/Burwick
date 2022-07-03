@@ -1,4 +1,4 @@
-<title>About</title>
+<title>Reuben's Website About</title>
 
 <head />
 <main>
