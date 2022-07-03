@@ -1,7 +1,7 @@
 <script>
 	let size =55;
 	let pad = 5;
-	let height = 2;
+	let height = 10;
 </script>
 
 <div class="

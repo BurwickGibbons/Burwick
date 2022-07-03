@@ -18,13 +18,13 @@
 	svg {
 		@apply text-slate-700;
 		min-height: 24px;
-		transition: transform 0.3s ease-in-out;
+		transition: transform 1s ease-in-out;
 	}
 
 	svg line {
 		stroke: currentColor;
 		stroke-width: 3;
-		transition: transform 0s ease-in-out;
+		transition: transform .5s ease-in-out;
 	}
 
 	button {
