@@ -1,7 +1,8 @@
 <script>
 	const links = [
 		{ title: 'About', href: '/about' },
-		{ title: 'Contact', href: '/contact' }
+		{ title: 'Contact', href: '/contact' },
+		{ title: 'Home', href: '/'},
 	];
 </script>
 
