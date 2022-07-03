@@ -1,4 +1,4 @@
-<title>Blender</title>
+<title>Reuben's Website Blender</title>
 
 <head />
 <main>
