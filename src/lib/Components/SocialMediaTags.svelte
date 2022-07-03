@@ -1,13 +1,13 @@
 <script>
 	let size =55;
 	let pad = 5;
-	let height = 10;
+	let height = 3;
 </script>
 
 <div class="
 max-w-screen-sm
 mx-auto
-sm:opacity-0
+opacity-0
 md:opacity-100
 ">
 
@@ -84,7 +84,7 @@ md:opacity-100
 	</a>
     <a 	
 		href="https://github.com/BurwickGibbons"
-		class="p-{pad} hover:-translate-y-{height}"
+		class="p-{pad} hover:-translate-y-3"
 		>
         <svg 
 			height={size} 
@@ -111,8 +111,8 @@ md:opacity-100
 	}
 
 	a{
-		transition: 1s;
+		transition: .5s;
+	
 		}
-
 
 </style>
