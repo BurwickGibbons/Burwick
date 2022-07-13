@@ -26,7 +26,7 @@
 		display: flex;
 		flex-direction: raw;
 		gap: 20%;
-		padding: 40px 0px;
+		padding: 40px 40px;
 		@apply animate-pulse;
 		animation-iteration-count: 1;
 		
@@ -38,6 +38,7 @@
 		height: auto;
 		border-radius: 30px;
 		padding: 30px 30px;
+		@apply border-slate-400;
 
 
 	}
@@ -46,7 +47,7 @@
 	@media screen and (max-width: 800px) {
 		.container{
 			flex-direction: column;
-            padding: 10px 10px;
+            padding: 10px 30px;
             
 		}
 
@@ -54,6 +55,8 @@
 			width: auto;
 			height: auto;
 			padding: 15px 15px;
+			border-radius: 10px;
+			@apply border-slate-500;
 		}
 	}
     @media screen and (min-width:800px){

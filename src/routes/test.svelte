@@ -1,36 +1,13 @@
 <script>
-	let hereKitty = false;
 
-	const handleMouseenter = () => hereKitty = true;
-	const handleMouseleave = () => hereKitty = false;
+	import Carousel from "$lib/Components/Carousel.svelte";
+	
 </script>
 
-<title>Reuben's Website Test</title>
+<div>
 
-<svelte:body
-on:mouseenter={handleMouseenter}
-on:mouseleave={handleMouseleave}
-/>
+	<Carousel />
 
-<!-- creative commons BY-NC http://www.pngall.com/kitten-png/download/7247 -->
-<img class="w-1/2 h/1/2"
-class:curious={hereKitty}
-alt="Kitten wants to know what's going on"
-src="/Peter.png"
->
+</div>
 
-<style lang="postcss">
-img {
-	position: absolute;
-	left: 0;
-	@apply bottom-64;
-	transform: translate(-200%, 0) rotate(90deg);
-	transform-origin: 100% 100%;
-	transition: transform 2s;
-}
 
-.curious {
-	transform: translate(-110%, 0) rotate(90deg);
-}
-
-</style>
