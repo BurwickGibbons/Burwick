@@ -1,4 +1,4 @@
-<div>
+<div class="top-60 relative">
 	<div class="carousel">
 		<ul class="slides">
 			<input type="radio" name="radio-buttons" id="img-1" checked />
@@ -56,7 +56,13 @@
 </div>
 
 
-<style>
+<style lang="postcss">
+
+img {
+	@apply rounded-3xl;
+
+}
+
 .carousel {
 	margin-left: 15%;
 	margin-right: 15%;
